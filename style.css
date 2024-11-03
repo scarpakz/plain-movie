@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0d0d;
+    color: #fff;
+}
+.m-navbar {
+    background-color: #080606;
+}
+.m-container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #efefef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.m-navbar-brand {
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    font-weight: 600;
+    font-size: 32px;
+}
+.m-nav-ul a {
+    text-decoration: none;
+    color: #efefef;
+}
+.heading-title {
+    color: #fff;
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.m-get-started-input {
+    height: 50px;
+}
+.m-trending-container {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.m-trending-container select {
+    width: 150px;
+    color: #fff;
+    background-color: #080606;
+    border-radius: unset;
+}
+.m-trending-cards .card {
+    max-width: 300px;
+    border: unset;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.m-trending-cards .card-body {
+    background-color: #040404;
+    color: #e1e1e1;
+}
+.m-contact {
+    margin-bottom: 50px;
+}
+.m-contact .m-form input {
+    height: 50px;
+    background-color: #080606;
+    color: #fff;
+    border: unset;
+    border-radius: unset;
+}
+.m-contact .m-form textarea {
+    background-color: #080606;
+    color: #fff;
+    border: unset;
+    border-radius: unset;
+}
+
+footer {
+    bottom: 0;
+    right:0;
+    left: 0;
+    background: #080606;
+    padding: 20px;
+}
+
+/* LOGIN */
+.m-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+.get-started-btn {
+    display: flex;
+    align-items: center;
+}
+.m-login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #080606;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.m-login-form h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.m-login-form input {
+    width: 100%;
+    height: 50px;
+    background-color: #040404;
+    border: unset;
+    color: #fff;
+    max-width: 400px;
+    padding: 5px 10px;
+}
+.m-login-form button {
+    height: 50px;
+    background-color: #ff0000;
+    border: unset;
+    border-radius: unset;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+
+/* PLANS */
+.m-plan-header h1 {
+    font-size: 64px;
+}
+.m-plan-content {
+    margin: 50px 0;
+    text-align: center;
+}
+.m-plan-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #080606;
+    color: #d6d6d6;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.best-seller {
+    border: solid 4px #d92b36;
+    transform: scale(1.1);
+    position: relative;
+}
+.best-seller-badge {
+    position: absolute;
+    top: -18px;
+    right: -10px;
+    background-color: #d92b36;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 0 10px;
+}
+.m-plan-card-content ul {
+    list-style-position: inside;
+}
